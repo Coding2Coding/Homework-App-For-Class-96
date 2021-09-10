@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Homework App For Class 96</title>
+
+        <link rel = "stylesheet" href="kwitterPage.css">
+        
+        <script src = "kwitterPage.js"></script>       
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    </head>
+    <body id="bodyTag">
+        <button id="logoutButton2" onclick="logout()">Logout</button>
+        <div class="container">
+            <center>
+                <h4 id="roomName"></h4>
+                <br>
+                <br>
+                <label style="font-family: fantasy; color: lightskyblue;">Send: </label>
+                <input id="typeMessage" class="form-control" placeholder="Type In Your Message">
+                <button class="btn btn-info" onclick="send()">Send</button>
+            </center>
+        </div>
+    </body>
+    <script src="kwitterPage.js"></script>
+</html>

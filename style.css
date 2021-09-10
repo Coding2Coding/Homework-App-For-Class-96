@@ -1,0 +1,43 @@
+#bodyTag {
+    background: linear-gradient(rgb(204, 232, 255) 0%, rgb(232, 214, 255) 100%);
+}
+
+#chatApp {
+    font-family: fantasy; 
+    font-style: italic; 
+    color: lightcoral; 
+    font-size: 70px;
+}
+
+#chatWithYourFriends {
+    font-family: fantasy; 
+    color: lightcoral; 
+    font-size: 20px;
+}
+
+#loginLabel {
+    font-family: fantasy; 
+    color: lightskyblue; 
+    font-size: 20px;
+}
+
+#usernameInput{
+    width: 200px; 
+    font-family: fantasy; 
+    font-size: 20px; 
+    text-align: center; 
+    border-radius: 14px; 
+    color: lightskyblue; 
+    background-color: lightcoral;
+}
+
+#loginButton {
+    width: 70px; 
+    font-family: fantasy; 
+    font-style: italic; 
+    font-size: 20px; 
+    text-align: center; 
+    border-radius: 14px; 
+    color: lightskyblue; 
+    background-color: lightcoral;
+}

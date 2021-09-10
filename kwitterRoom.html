@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Homework App For Class 96</title>
+    <link rel = "stylesheet" href="kwitterRoom.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body id="bodyTag">
+    <button id="logoutButton1" onclick="logout()">Logout</button>
+    <center>
+        <label id="welcomeUsernameLabel">Welcome, <span id="welcomeUsername"></span>!!</label>
+        <br>
+        <br>
+        <input id="roomNameInput" placeholder="Enter RoomName">
+        <br>
+        <br>
+        <button id="addRoomButton" onclick="addRoom()">Add Room</button>
+        <br>
+        <br>
+        <div id="output"></div>
+    </center>
+   
+</body>
+<script src = "kwitterRoom.js"></script>
+</html>
